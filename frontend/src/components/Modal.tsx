@@ -37,6 +37,7 @@ export function Modal(props:ModalProps) {
         }catch(err){
             alert("Error in submitting details ")
         }
+        props.onClose()
 
     }
     return (
